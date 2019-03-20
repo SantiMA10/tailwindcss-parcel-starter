@@ -1,4 +1,5 @@
-# Tailwind CSS Parcel Starter Project [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+# Tailwind CSS Parcel Starter Project [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=SantiMA10/tailwindcss-parcel-starter)](https://dependabot.com)
+
 
 
 This is an example of a super simple [Tailwind CSS](https://tailwindcss.com) + [ParcelJS](https://parceljs.org) starter project.
