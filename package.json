@@ -11,7 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
-    "postcss": "^7.0.17",
+    "postcss": "^7.0.18",
     "tailwindcss": "^0.7.4",
     "typescript": "^3.6.2"
   }
