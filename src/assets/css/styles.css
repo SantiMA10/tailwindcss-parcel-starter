@@ -3,3 +3,15 @@
 @tailwind components;
 
 @tailwind utilities;
+
+#heroText{
+    top: 30%
+}
+
+#heroH1{
+    font-size: 5rem;
+}
+
+.hero{
+    background-color: rgba(92, 92, 92, 0.548);
+}
