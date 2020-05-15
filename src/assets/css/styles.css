@@ -8,9 +8,13 @@
     top: 30%
 }
 
-#heroH1{
-    font-size: 5rem;
-}
+@media only screen and (min-width: 1024px) {
+    #heroH1{
+        font-size: 5rem;
+    }
+  }
+
+
 
 .hero{
     background-color: rgba(92, 92, 92, 0.548);
