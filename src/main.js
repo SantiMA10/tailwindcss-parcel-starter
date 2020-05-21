@@ -34,4 +34,29 @@ window.onload = function() {
     window.addEventListener("resize", lazyLoad);
     window.addEventListener("orientationchange", lazyLoad);
     this.console.log('loaded lazy');
+
+
+    // navbar
+    const button = document.querySelector('#menuButton');
+    const menu = document.querySelector('#menuLinks');
+    menu.classList.add('hidden');
+    let state = false;
+    console.log(state);
+
+
+
+
+    button.addEventListener('click', toggle);
+
+    function toggle(e) {
+        state =!state
+        console.log(state);
+        if (state === true) {
+            menu.classList.remove('hidden');
+         
+        } else {
+            menu.classList.add('hidden');
+         
+        }
+    }
   };
