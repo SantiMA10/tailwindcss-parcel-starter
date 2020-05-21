@@ -8,6 +8,13 @@
     top: 30%
 }
 
+#heroRapper{
+    background-image: url(/assets/img/danny-howe-vESk46kcm9g-unsplash.jpg);
+    background-position: center;
+    background-size: cover; 
+    
+}
+
 @media only screen and (min-width: 1024px) {
     #heroH1{
         font-size: 5rem;
@@ -15,7 +22,7 @@
   }
 
   .overlay{
-      background-color: rgba(37, 37, 37, 0.267);
+      background-color: rgba(0, 0, 0, 0.267);
   }
 
 

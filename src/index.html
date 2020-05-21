@@ -9,35 +9,47 @@
   <link rel="shortcut icon" href="./assets/img/GB-icon.png" />
 </head>
 <script src="main.js"></script>
+
 <body class="relative bg-gray-700">
+  <div id="heroRapper">
+  <header class=" sm:flex">
+    <div class="sm:hidden flex items-center justify-between px-4 py-4">
+      <div>
+        <a href="index.html"><img class="w-8 h-auto" src="./assets/img/GB-icon.png" alt="workting"></a>
+      </div>
+      <div class="sm:hidden">
+        <button id="menuButton" type="button"
+          class="flex flex-row justify-center  text-white focus:outline-none w-10 h-10">
+          <img class="h-auto w-8" src="./assets/icons/more.svg" alt="">
+
+        </button>
+      </div>
+    </div>
+
+    <nav id="menuLinks"
+      class="text-right w-full sm:flex sm:flex-wrap sm:flex-row sm:items-center sm:justify-center sm:px-4 sm:pt-2 px-2 pt-2 pb-4 transition ease-in duration-700 sm:text-base flex flex-col justify-end">
+      <a class="text-right p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-gray-800 px-auto "
+        href="index.html">Home</a>
+      <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-gray-800"
+        href="soon.html" style="color: transparent; text-shadow: 0 0 5px rgba(255, 255, 255, 0.5)"
+        title="Coming soon!">Music</a>
+      <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 sm:flex hover:text-gray-500 hover:bg-gray-800 hidden"
+        href="index.html">
+        <img class="w-12 h-auto" src="./assets/icons/GB-icon.png" alt="">
+      </a>
+      <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-gray-800"
+        href="soon.html" style="color: transparent; text-shadow: 0 0 5px rgba(255, 255, 255, 0.5)"
+        title="Coming soon!">Moodboard</a>
+      <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-gray-800"
+        href="about.html">About</a>
+    </nav>
+
+  </header>
   <!-- background-image is taken care of by div below -->
   <div id="heroWrapper" class="lazy min-h-screen bg-cover bg-center relative shadow-2xl"
-    style="background-image: url(./assets/img/danny-howe-vESk46kcm9g-unsplash.jpg)">
-    <header class=" overlay sm:flex">
-        <div class="sm:hidden flex items-center justify-between px-4 py-4" >
-            <div >
-                <a href="index.html"><img class="w-8 h-auto" src="./assets/img/GB-icon.png" alt="workting"></a>
-            </div>
-            <div class="sm:hidden">
-                <button id="menuButton" type="button" class="flex flex-row justify-center  text-white focus:outline-none w-10 h-10">
-                    <img class="h-auto w-8" src="./assets/icons/more.svg" alt="">
-                    
-                </button>
-            </div>
-        </div>
-        
-        <nav id="menuLinks" class="text-right w-full sm:flex sm:flex-wrap sm:flex-row sm:items-center sm:justify-center sm:px-4 sm:pt-2 px-2 pt-2 pb-4 transition ease-in duration-700 sm:text-base flex flex-col justify-end">
-          <a class="text-right p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-gray-800 px-auto " href="index.html">Home</a>
-          <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-gray-800" href="soon.html" style="color: transparent; text-shadow: 0 0 5px rgba(255, 255, 255, 0.5)" title="Coming soon!">Music</a>
-          <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 sm:flex hover:text-gray-500 hover:bg-gray-800 hidden" href="index.html">
-              <img class="w-12 h-auto" src="./assets/icons/GB-icon.png" alt="">
-          </a>
-          <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-gray-800" href="soon.html" style="color: transparent; text-shadow: 0 0 5px rgba(255, 255, 255, 0.5)" title="Coming soon!" >Moodboard</a>
-          <a class="p-1 lg:px-10 lg:mr-5 sm:px-4 md:mr-0 text-gray-300 hover:text-gray-500 hover:bg-gray-800" href="about.html">About</a> 
-            </nav>
-        
-    </header>
-    <section id="heroText" class="text-gray-700 body-font mt-32">
+    >
+
+    <section id="heroText" class="text-gray-700 body-font pt-32">
       <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div
           class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -58,6 +70,7 @@
         </div> -->
       </div>
     </section>
+  </div>
   </div>
   <section id="featuredPlaylists" class="featured text-gray-870 body-font border-gray-200">
     <div class="container px-5 py-24 mx-auto">
@@ -207,15 +220,15 @@
                   of glitch.</em>
 
                 <br>
-                <ol>
-                  <strong> Tracklist:</strong>
-                  <li> Dwson - Another Sleepless Night</li>
-                  <li> Fka Mash - We Belong To The Night</li>
-                  <li> Sean Munnick - Week n Chill</li>
-                  <li> Xclusive kAi - FourPlay</li>
-                  <li> Jazzuelle - Blood Moon</li>
-                  <li> Dwson - Tears for You</li>
-                </ol>
+              <ol>
+                <strong> Tracklist:</strong>
+                <li> Dwson - Another Sleepless Night</li>
+                <li> Fka Mash - We Belong To The Night</li>
+                <li> Sean Munnick - Week n Chill</li>
+                <li> Xclusive kAi - FourPlay</li>
+                <li> Jazzuelle - Blood Moon</li>
+                <li> Dwson - Tears for You</li>
+              </ol>
               </p>
               <a href="https://youtu.be/WgUt9PnrcqI"
                 class="w-auto mt-3 hover:text-gray-900 text-yellow-700 inline-flex items-center">Stream
@@ -244,19 +257,19 @@
                 <em> If you enjoy this sound, pay attention to the featuring artists & remixers too!</em> <br><br>
 
 
-                <ol>
-                  <strong> Tracklist: </strong>
-                  <li> Marc Romboy & Stephan Bodzin - Phobos (Synthapella)</li>
-                  <li> Miyagi ft. Allies For Everyone - Clouds (David Hasert Remix)</li>
-                  <li>Stephan Bodzin - Luka Leon</li>
-                  <li>Rodriguez Jr. - Chrysalism</li>
-                  <li>Stephan Bodzin - Vendetta</li>
-                  <li>Stephan Bodzin - Sputnik (Dominik Eulberg Remix)</li>
-                  <li>Stephan Bodzin - Powers of Ten</li>
-                  <li>Stephan Bodzin - Catamaran</li>
-                  <li>Rodriguez Jr. - Monticello</li>
-                  <li>Gorje Hewek & Izhevski - Leternite Vechnost (Instrumental)</li>
-                </ol>
+              <ol>
+                <strong> Tracklist: </strong>
+                <li> Marc Romboy & Stephan Bodzin - Phobos (Synthapella)</li>
+                <li> Miyagi ft. Allies For Everyone - Clouds (David Hasert Remix)</li>
+                <li>Stephan Bodzin - Luka Leon</li>
+                <li>Rodriguez Jr. - Chrysalism</li>
+                <li>Stephan Bodzin - Vendetta</li>
+                <li>Stephan Bodzin - Sputnik (Dominik Eulberg Remix)</li>
+                <li>Stephan Bodzin - Powers of Ten</li>
+                <li>Stephan Bodzin - Catamaran</li>
+                <li>Rodriguez Jr. - Monticello</li>
+                <li>Gorje Hewek & Izhevski - Leternite Vechnost (Instrumental)</li>
+              </ol>
               </p>
               <a href="https://youtu.be/WgUt9PnrcqI"
                 class="mt-3 hover:text-gray-900 text-yellow-700 inline-flex items-center">Stream
@@ -287,18 +300,18 @@
                 <em>Laidback dancefloor afro tunes</em> <br><br>
 
 
-                <ol>
-                  <strong> Tracklist: </strong>
-                  <li>Odunsi feat RAYE - Tipsy</li>
-                  <li>Show Dem Camp - Tropicana ft. Flash</li>
-                  <li>Fasina x Adey - Split </li>
-                  <li>BOJ feat. Teni – Obe (Stew)</li>
-                  <li>Sarz & WurlD - Trobul</li>
-                  <li>Tekno - BE</li>
-                  <li>One Acen - Vice Versa ft. WSTRN</li>
-                  <li>Show Dem Camp - Popping Again ft. Odunsi, BOJ</li>
-                  <li>Da Beatfreakz x AJ x Deno x Swarmz x Cadet - Pumpy</li>
-                </ol>
+              <ol>
+                <strong> Tracklist: </strong>
+                <li>Odunsi feat RAYE - Tipsy</li>
+                <li>Show Dem Camp - Tropicana ft. Flash</li>
+                <li>Fasina x Adey - Split </li>
+                <li>BOJ feat. Teni – Obe (Stew)</li>
+                <li>Sarz & WurlD - Trobul</li>
+                <li>Tekno - BE</li>
+                <li>One Acen - Vice Versa ft. WSTRN</li>
+                <li>Show Dem Camp - Popping Again ft. Odunsi, BOJ</li>
+                <li>Da Beatfreakz x AJ x Deno x Swarmz x Cadet - Pumpy</li>
+              </ol>
               </p>
               <a href="https://www.youtube.com/watch?v=anxlX5urLNM"
                 class="mt-3 hover:text-gray-900 text-yellow-700 inline-flex items-center">Stream
@@ -361,18 +374,18 @@
                   music for the villains.</em> <br>
 
 
-                <ol>
-                  <strong> Tracklist: </strong>
-                  <li>Dub Phizix - Who Are you?</li>
-                  <li>Serum - Skeleton Key</li>
-                  <li>Petroll - Spectral</li>
-                  <li>Voltage & Nicky Blackmarket - The Plot Thickens</li>
-                  <li>Voltage & Nicky Blackmarket - Jazz Tickles</li>
-                  <li>Serum - Dark Clouds</li>
-                  <li>Halogenix - Blej</li>
-                  <li>Inja x Serum - Samurai</li>
-                  <li>QZB - WYGD</li>
-                </ol>
+              <ol>
+                <strong> Tracklist: </strong>
+                <li>Dub Phizix - Who Are you?</li>
+                <li>Serum - Skeleton Key</li>
+                <li>Petroll - Spectral</li>
+                <li>Voltage & Nicky Blackmarket - The Plot Thickens</li>
+                <li>Voltage & Nicky Blackmarket - Jazz Tickles</li>
+                <li>Serum - Dark Clouds</li>
+                <li>Halogenix - Blej</li>
+                <li>Inja x Serum - Samurai</li>
+                <li>QZB - WYGD</li>
+              </ol>
               </p>
               <a href="https://www.youtube.com/watch?v=WkJnD48cANo"
                 class="mt-3 hover:text-gray-900 text-yellow-700 inline-flex items-center">Stream
@@ -395,7 +408,7 @@
       </div>
     </div>
   </footer>
-  
+
 </body>
 
 </html>
