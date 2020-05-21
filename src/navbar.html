@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" /> -->
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+    <title>Let's Build: With Tailwind CSS - Responsive Navbar</title>
+
+    <!-- <style>
+        #menu-toggle:checked+#menu {
+            display: block;
+        }
+    </style> -->
+</head>
+
+<body class="antialiased bg-gray-200 transition ease-in duration-700">
+    <header class=" bg-gray-500">
+        <div class="flex items-center justify-between px-4 py-2">
+            <div>
+                <img class="w-8 h-auto" src="./assets/img/GB-icon.png" alt="workting">
+            </div>
+            <div>
+                <button id="menuButton" type="button" class="text-white focus:outline-none w-10 h-10">
+                    <img class="h-auto w-8" src="./assets/icons/icons8-menu-vertical-50.png" alt="">
+                    
+                </button>
+            </div>
+        </div>
+        <div id="menuLinks" class="px-2 pt-2 pb-4 transition ease-in duration-700 hidden">
+            <a href="#" class="block px-2  font-semibold rounded hover:bg-gray-100">Home</a>
+            <a href="#" class="block px-2 mt-1 font-semibold rounded hover:bg-gray-100"
+                style="color: transparent; text-shadow: 0 0 5px rgba(255, 255, 255, 0.5)" title="Coming soon!">Music</a>
+            <a href="#" class="block px-2 mt-1 font-semibold rounded hover:bg-gray-100"
+                style="color: transparent; text-shadow: 0 0 5px rgba(255, 255, 255, 0.5)"
+                title="Coming soon!">Moodboard</a>
+            <a href="#" class="block px-2 mt-1 font-semibold rounded hover:bg-gray-100">About</a>
+        </div>
+    </header>
+    <div class="px-4">
+        <div class="max-w-3xl bg-white rounded-lg mx-auto my-16 p-16">
+            <h1 class="text-2xl font-medium mb-2">
+                Let's Build: With Tailwind CSS
+            </h1>
+            <h2 class="font-medium text-sm text-indigo-400 mb-4 uppercase tracking-wide">
+                Responsive Navbar
+            </h2>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum illo
+            cupiditate molestias atque consequuntur ea quo cumque, odit velit sint
+            similique? Asperiores ratione aperiam tempora, alias corrupti deleniti
+            quaerat molestiae.
+        </div>
+    </div>
+</body>
+<script>
+    // SVG icons toggle control
+    const menuClosed = document.querySelector('#close')
+    const menuOpen = document.querySelector('#open');
+    
+
+    const button = document.querySelector('#menuButton');
+    const menu = document.querySelector('#menuLinks');
+    let state = false;
+    console.log(state);
+
+
+    button.addEventListener('click', toggle);
+    function toggle(e) {
+        state = !state;
+        console.log(state);
+        if (state === true) {
+            menu.style.display = 'block';
+        } else {
+            menu.style.display = 'none';
+        }
+    }
+
+</script>
+
+</html>
