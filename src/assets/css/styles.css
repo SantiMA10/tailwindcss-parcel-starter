@@ -4,14 +4,19 @@
 
 @screen sm{
     .headerLink:hover{
-        @apply bg-transparent
+        @apply bg-transparent;
     }
 }
 
 @tailwind utilities;
 
+:root{
+    margin:0;
+    padding: 0;
+}
+
 #heroText{
-    top: 30%
+    top: 30%;
 }
 
 #heroRapper{
