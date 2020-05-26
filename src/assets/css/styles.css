@@ -2,6 +2,12 @@
 
 @tailwind components;
 
+@screen sm{
+    .headerLink:hover{
+        @apply bg-transparent
+    }
+}
+
 @tailwind utilities;
 
 #heroText{
