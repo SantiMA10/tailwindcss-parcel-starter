@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "A simple tailwind starter project with parcel",
   "scripts": {
-    "dev": "npx parcel src/index.html",
-    "prod": "npx parcel build src/index.html"
+    "dev": "yarn parcel src/index.html",
+    "prod": "yarn parcel build src/index.html"
   },
   "repository": "https://github.com/SantiMA10/tailwindcss-parcel-starter.git",
   "author": "Santi <santiagomartinagra@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "parcel-bundler": "^1.12.4",
