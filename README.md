@@ -1,11 +1,8 @@
-# Tailwind CSS Parcel Starter Project [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=SantiMA10/tailwindcss-parcel-starter)](https://dependabot.com)
-
-
+# Tailwind CSS Parcel Starter Project [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=SantiMA10/tailwindcss-parcel-starter)](https://dependabot.com) ![Node.js CI](https://github.com/SantiMA10/tailwindcss-parcel-starter/workflows/Node.js%20CI/badge.svg)
 
 This is an example of a super simple [Tailwind CSS](https://tailwindcss.com) + [ParcelJS](https://parceljs.org) starter project.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/SantiMA10/tailwindcss-parcel-starter)
-
 
 ## Get started
 
