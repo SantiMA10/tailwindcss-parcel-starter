@@ -13,7 +13,7 @@
     "node": ">=12"
   },
   "devDependencies": {
-    "autoprefixer": "^10.0.1",
+    "autoprefixer": "^10.0.2",
     "parcel": "^2.0.0-nightly.439",
     "postcss": "^8.1.7",
     "postcss-cli": "^8.2.0",
