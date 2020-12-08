@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.0.4",
-    "parcel": "^2.0.0-nightly.462",
+    "parcel": "^2.0.0-nightly.472",
     "postcss": "^8.1.14",
     "postcss-cli": "^8.3.0",
     "tailwindcss": "^2.0.1",
