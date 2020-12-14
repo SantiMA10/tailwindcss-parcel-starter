@@ -16,7 +16,7 @@
     "autoprefixer": "^10.1.0",
     "parcel": "^2.0.0-nightly.462",
     "postcss": "^8.2.1",
-    "postcss-cli": "^8.3.0",
+    "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.0.1",
     "typescript": "^4.1.2"
   }
